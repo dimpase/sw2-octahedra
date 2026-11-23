@@ -1,0 +1,716 @@
+{
+  "exhaustive_no3": {
+    "bound": 252,
+    "convex_states": 8711718,
+    "exit": 0,
+    "elapsed_seconds": 1100.4441128700273,
+    "user_seconds": 1049.88254,
+    "system_seconds": 46.538469,
+    "peak_rss_kib": 10706652
+  },
+  "cusp_search": {
+    "embedded_records": 5422,
+    "isometry_types": 2735,
+    "tiled": 2732,
+    "obstructions": [
+      {
+        "index": 528,
+        "shape": "d72a68070549b384d369867f25c9bea3faab18d5a19e03043b02283eb73e7007"
+      },
+      {
+        "index": 672,
+        "shape": "9a5f5259751da07b1646bb9ca116c81931828f53599ab6d6f904596b0336dece"
+      },
+      {
+        "index": 720,
+        "shape": "f9e462a07a88095ef9995c27612d4bf6ec3e6faba39c76f3b67f9587a68232c6"
+      }
+    ],
+    "largest_index": 2304,
+    "parameters": [
+      {
+        "case": "all3",
+        "width": 3,
+        "height": 3,
+        "origin": [
+          0,
+          0
+        ],
+        "bend": 6,
+        "seed": 431,
+        "limit": 4000,
+        "walls": 214,
+        "configurations": 9,
+        "exhausted": true,
+        "indices": {
+          "432": 3,
+          "528": 4,
+          "672": 2
+        },
+        "volume_obstructions": 0,
+        "seconds": 0.289
+      },
+      {
+        "case": "all3",
+        "width": 4,
+        "height": 4,
+        "origin": [
+          1,
+          0
+        ],
+        "bend": 4,
+        "seed": 431,
+        "limit": 4000,
+        "walls": 176,
+        "configurations": 563,
+        "exhausted": true,
+        "indices": {
+          "192": 1,
+          "240": 8,
+          "288": 32,
+          "336": 80,
+          "384": 128,
+          "432": 132,
+          "480": 96,
+          "528": 53,
+          "576": 20,
+          "624": 8,
+          "672": 4,
+          "768": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 1.726
+      },
+      {
+        "case": "all3",
+        "width": 6,
+        "height": 4,
+        "origin": [
+          1,
+          0
+        ],
+        "bend": 5,
+        "seed": 431,
+        "limit": 1200,
+        "walls": 311,
+        "configurations": 1200,
+        "exhausted": false,
+        "indices": {
+          "336": 1,
+          "384": 6,
+          "432": 25,
+          "480": 68,
+          "528": 130,
+          "576": 182,
+          "624": 197,
+          "672": 190,
+          "720": 147,
+          "768": 102,
+          "816": 79,
+          "864": 33,
+          "912": 22,
+          "960": 11,
+          "1008": 4,
+          "1056": 2,
+          "1152": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 8.554
+      },
+      {
+        "case": "no3",
+        "width": 2,
+        "height": 2,
+        "origin": [
+          0,
+          0
+        ],
+        "bend": 16,
+        "seed": 431,
+        "limit": 4000,
+        "walls": 216,
+        "configurations": 273,
+        "exhausted": true,
+        "indices": {
+          "48": 1,
+          "96": 4,
+          "144": 2,
+          "192": 5,
+          "240": 8,
+          "288": 32,
+          "336": 56,
+          "384": 70,
+          "432": 57,
+          "480": 28,
+          "528": 8,
+          "576": 2
+        },
+        "volume_obstructions": 0,
+        "seconds": 0.808
+      },
+      {
+        "case": "no3",
+        "width": 3,
+        "height": 2,
+        "origin": [
+          0,
+          0
+        ],
+        "bend": 12,
+        "seed": 431,
+        "limit": 4000,
+        "walls": 203,
+        "configurations": 9,
+        "exhausted": true,
+        "indices": {
+          "192": 1,
+          "240": 1,
+          "288": 3,
+          "384": 3,
+          "528": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 0.341
+      },
+      {
+        "case": "no3",
+        "width": 4,
+        "height": 4,
+        "origin": [
+          0,
+          0
+        ],
+        "bend": 8,
+        "seed": 431,
+        "limit": 4000,
+        "walls": 232,
+        "configurations": 563,
+        "exhausted": true,
+        "indices": {
+          "192": 1,
+          "240": 8,
+          "288": 32,
+          "336": 80,
+          "384": 128,
+          "432": 132,
+          "480": 96,
+          "528": 53,
+          "576": 20,
+          "624": 8,
+          "672": 4,
+          "768": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 2.362
+      },
+      {
+        "case": "no3",
+        "width": 6,
+        "height": 4,
+        "origin": [
+          0,
+          0
+        ],
+        "bend": 8,
+        "seed": 431,
+        "limit": 1200,
+        "walls": 339,
+        "configurations": 1200,
+        "exhausted": false,
+        "indices": {
+          "384": 1,
+          "432": 8,
+          "480": 33,
+          "528": 91,
+          "576": 168,
+          "624": 222,
+          "672": 226,
+          "720": 178,
+          "768": 121,
+          "816": 79,
+          "864": 34,
+          "912": 22,
+          "960": 11,
+          "1008": 3,
+          "1056": 2,
+          "1152": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 8.088
+      },
+      {
+        "case": "all3",
+        "width": 2,
+        "height": 2,
+        "origin": [
+          1,
+          0
+        ],
+        "bend": 15,
+        "seed": 8471,
+        "limit": 350,
+        "walls": 484,
+        "configurations": 350,
+        "exhausted": false,
+        "indices": {
+          "288": 1,
+          "336": 2,
+          "384": 3,
+          "432": 6,
+          "480": 10,
+          "528": 20,
+          "576": 20,
+          "624": 25,
+          "672": 22,
+          "720": 28,
+          "768": 28,
+          "816": 36,
+          "864": 38,
+          "912": 9,
+          "960": 47,
+          "1008": 19,
+          "1056": 2,
+          "1104": 26,
+          "1152": 4,
+          "1248": 4
+        },
+        "volume_obstructions": 0,
+        "seconds": 6.228
+      },
+      {
+        "case": "all3",
+        "width": 3,
+        "height": 3,
+        "origin": [
+          1,
+          0
+        ],
+        "bend": 10,
+        "seed": 8471,
+        "limit": 250,
+        "walls": 484,
+        "configurations": 250,
+        "exhausted": false,
+        "indices": {
+          "576": 1,
+          "624": 6,
+          "672": 19,
+          "720": 40,
+          "768": 58,
+          "816": 59,
+          "864": 41,
+          "912": 19,
+          "960": 6,
+          "1008": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 5.209
+      },
+      {
+        "case": "all3",
+        "width": 6,
+        "height": 6,
+        "origin": [
+          1,
+          0
+        ],
+        "bend": 3,
+        "seed": 8471,
+        "limit": 20,
+        "walls": 196,
+        "configurations": 2,
+        "exhausted": true,
+        "indices": {
+          "432": 1,
+          "1728": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 0.267
+      },
+      {
+        "case": "no3",
+        "width": 2,
+        "height": 2,
+        "origin": [
+          0,
+          0
+        ],
+        "bend": 26,
+        "seed": 8471,
+        "limit": 400,
+        "walls": 524,
+        "configurations": 400,
+        "exhausted": false,
+        "indices": {
+          "336": 2,
+          "384": 2,
+          "432": 3,
+          "480": 8,
+          "528": 17,
+          "576": 14,
+          "624": 13,
+          "672": 12,
+          "720": 35,
+          "768": 17,
+          "816": 54,
+          "864": 36,
+          "912": 27,
+          "960": 51,
+          "1008": 9,
+          "1056": 36,
+          "1104": 6,
+          "1152": 34,
+          "1200": 6,
+          "1296": 16,
+          "1440": 2
+        },
+        "volume_obstructions": 0,
+        "seconds": 7.243
+      },
+      {
+        "case": "no3",
+        "width": 3,
+        "height": 2,
+        "origin": [
+          1,
+          0
+        ],
+        "bend": 16,
+        "seed": 8471,
+        "limit": 200,
+        "walls": 327,
+        "configurations": 200,
+        "exhausted": false,
+        "indices": {
+          "288": 2,
+          "336": 2,
+          "384": 4,
+          "432": 6,
+          "480": 22,
+          "528": 35,
+          "576": 47,
+          "624": 44,
+          "672": 26,
+          "720": 10,
+          "768": 2
+        },
+        "volume_obstructions": 0,
+        "seconds": 2.812
+      },
+      {
+        "case": "no3",
+        "width": 4,
+        "height": 2,
+        "origin": [
+          0,
+          0
+        ],
+        "bend": 16,
+        "seed": 8471,
+        "limit": 400,
+        "walls": 417,
+        "configurations": 400,
+        "exhausted": false,
+        "indices": {
+          "432": 1,
+          "480": 1,
+          "528": 4,
+          "576": 7,
+          "624": 20,
+          "672": 33,
+          "720": 56,
+          "768": 74,
+          "816": 76,
+          "864": 66,
+          "912": 40,
+          "960": 16,
+          "1008": 5,
+          "1056": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 6.905
+      },
+      {
+        "case": "no3",
+        "width": 8,
+        "height": 6,
+        "origin": [
+          0,
+          0
+        ],
+        "bend": 5,
+        "seed": 8471,
+        "limit": 12,
+        "walls": 229,
+        "configurations": 2,
+        "exhausted": true,
+        "indices": {
+          "576": 1,
+          "2304": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 0.458
+      },
+      {
+        "case": "no3",
+        "width": 8,
+        "height": 8,
+        "origin": [
+          0,
+          0
+        ],
+        "bend": 3,
+        "seed": 8471,
+        "limit": 10,
+        "walls": 96,
+        "configurations": 1,
+        "exhausted": true,
+        "indices": {
+          "768": 1
+        },
+        "volume_obstructions": 0,
+        "seconds": 0.067
+      }
+    ]
+  },
+  "additional_edge_screens": [
+    {
+      "case": "all3",
+      "width": 2,
+      "height": 2,
+      "origin": [
+        1,
+        0
+      ],
+      "bend": 13,
+      "seed": 87,
+      "limit": 6000,
+      "walls": 372,
+      "configurations": 6000,
+      "exhausted": false,
+      "indices": {
+        "48": 1,
+        "96": 4,
+        "144": 13,
+        "192": 26,
+        "240": 42,
+        "288": 73,
+        "336": 95,
+        "384": 126,
+        "432": 183,
+        "480": 252,
+        "528": 335,
+        "576": 351,
+        "624": 431,
+        "672": 469,
+        "720": 524,
+        "768": 532,
+        "816": 451,
+        "864": 575,
+        "912": 230,
+        "960": 458,
+        "1008": 131,
+        "1056": 288,
+        "1104": 92,
+        "1152": 146,
+        "1200": 86,
+        "1248": 6,
+        "1296": 64,
+        "1344": 8,
+        "1440": 8
+      },
+      "screen": true,
+      "obstructions": {},
+      "seconds": 2.468
+    },
+    {
+      "case": "all3",
+      "width": 3,
+      "height": 2,
+      "origin": [
+        0,
+        0
+      ],
+      "bend": 9,
+      "seed": 87,
+      "limit": 3000,
+      "walls": 279,
+      "configurations": 2642,
+      "exhausted": true,
+      "indices": {
+        "192": 1,
+        "240": 5,
+        "288": 14,
+        "336": 36,
+        "384": 86,
+        "432": 186,
+        "480": 352,
+        "528": 510,
+        "576": 554,
+        "624": 451,
+        "672": 272,
+        "720": 123,
+        "768": 40,
+        "816": 10,
+        "864": 2
+      },
+      "screen": true,
+      "obstructions": {},
+      "seconds": 0.933
+    },
+    {
+      "case": "all3",
+      "width": 4,
+      "height": 2,
+      "origin": [
+        1,
+        0
+      ],
+      "bend": 7,
+      "seed": 87,
+      "limit": 6000,
+      "walls": 235,
+      "configurations": 149,
+      "exhausted": true,
+      "indices": {
+        "96": 1,
+        "144": 6,
+        "192": 13,
+        "240": 14,
+        "288": 21,
+        "336": 12,
+        "384": 25,
+        "432": 8,
+        "480": 22,
+        "528": 2,
+        "576": 12,
+        "624": 6,
+        "720": 6,
+        "864": 1
+      },
+      "screen": true,
+      "obstructions": {},
+      "seconds": 0.395
+    },
+    {
+      "case": "no3",
+      "width": 2,
+      "height": 2,
+      "origin": [
+        0,
+        0
+      ],
+      "bend": 24,
+      "seed": 87,
+      "limit": 6000,
+      "walls": 476,
+      "configurations": 6000,
+      "exhausted": false,
+      "indices": {
+        "48": 1,
+        "96": 4,
+        "144": 13,
+        "192": 26,
+        "240": 41,
+        "288": 67,
+        "336": 82,
+        "384": 108,
+        "432": 153,
+        "480": 212,
+        "528": 290,
+        "576": 300,
+        "624": 393,
+        "672": 411,
+        "720": 506,
+        "768": 492,
+        "816": 467,
+        "864": 578,
+        "912": 260,
+        "960": 506,
+        "1008": 170,
+        "1056": 334,
+        "1104": 128,
+        "1152": 167,
+        "1200": 134,
+        "1248": 9,
+        "1296": 101,
+        "1344": 20,
+        "1440": 24,
+        "1488": 1,
+        "1584": 2
+      },
+      "screen": true,
+      "obstructions": {},
+      "seconds": 2.938
+    },
+    {
+      "case": "no3",
+      "width": 3,
+      "height": 2,
+      "origin": [
+        0,
+        0
+      ],
+      "bend": 18,
+      "seed": 87,
+      "limit": 3000,
+      "walls": 393,
+      "configurations": 2642,
+      "exhausted": true,
+      "indices": {
+        "192": 1,
+        "240": 5,
+        "288": 14,
+        "336": 36,
+        "384": 86,
+        "432": 186,
+        "480": 352,
+        "528": 510,
+        "576": 554,
+        "624": 451,
+        "672": 272,
+        "720": 123,
+        "768": 40,
+        "816": 10,
+        "864": 2
+      },
+      "screen": true,
+      "obstructions": {},
+      "seconds": 1.719
+    },
+    {
+      "case": "no3",
+      "width": 4,
+      "height": 2,
+      "origin": [
+        0,
+        0
+      ],
+      "bend": 14,
+      "seed": 87,
+      "limit": 6000,
+      "walls": 309,
+      "configurations": 149,
+      "exhausted": true,
+      "indices": {
+        "96": 1,
+        "144": 6,
+        "192": 13,
+        "240": 14,
+        "288": 21,
+        "336": 12,
+        "384": 25,
+        "432": 8,
+        "480": 22,
+        "528": 2,
+        "576": 12,
+        "624": 6,
+        "720": 6,
+        "864": 1
+      },
+      "screen": true,
+      "obstructions": {},
+      "seconds": 0.794
+    }
+  ]
+}
